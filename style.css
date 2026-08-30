@@ -1,0 +1,393 @@
+/* ================================
+   THE BEST FINANCE SERVICES
+   MAIN WEBSITE STYLES
+================================ */
+
+
+/* ---------- GENERAL ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #172033;
+    background: #ffffff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 8%;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+header {
+    background: #071b3a;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+    min-height: 75px;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.logo span {
+    color: #d4af37;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.logo small {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d4af37;
+}
+
+.menu-btn {
+    display: none;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+/* ---------- HERO ---------- */
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(
+        135deg,
+        #071b3a,
+        #0c3266
+    );
+    color: white;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.welcome,
+.section-label {
+    color: #d4af37;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.hero h1 span {
+    color: #d4af37;
+}
+
+.hero-text {
+    font-size: 19px;
+    max-width: 650px;
+    margin-bottom: 35px;
+    color: #e5eaf2;
+}
+
+
+/* ---------- BUTTONS ---------- */
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.primary-btn {
+    background: #d4af37;
+    color: #071b3a;
+}
+
+.primary-btn:hover {
+    transform: translateY(-3px);
+    background: #ffffff;
+}
+
+.whatsapp-btn {
+    background: #ffffff;
+    color: #071b3a;
+}
+
+.whatsapp-btn:hover {
+    transform: translateY(-3px);
+    background: #d4af37;
+}
+
+
+/* ---------- INTRO ---------- */
+
+.intro {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.intro h2,
+.services h2,
+.why-us h2,
+.cta h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #071b3a;
+}
+
+.intro > p:last-child {
+    color: #5f6878;
+    font-size: 17px;
+}
+
+
+/* ---------- SERVICES ---------- */
+
+.services {
+    background: #f5f7fa;
+    text-align: center;
+}
+
+.service-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.service-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.4s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    color: #071b3a;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #667085;
+    margin-bottom: 20px;
+}
+
+.service-card a {
+    color: #b28b15;
+    font-weight: bold;
+}
+
+
+/* ---------- WHY US ---------- */
+
+.why-us {
+    background: white;
+}
+
+.why-content {
+    max-width: 900px;
+}
+
+.why-content > p {
+    color: #667085;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.features div {
+    padding: 20px;
+    border-left: 4px solid #d4af37;
+    background: #f8f9fb;
+}
+
+.features strong {
+    color: #071b3a;
+}
+
+.features p {
+    color: #667085;
+    margin-top: 5px;
+}
+
+
+/* ---------- CTA ---------- */
+
+.cta {
+    text-align: center;
+    background: #071b3a;
+    color: white;
+}
+
+.cta h2 {
+    color: white;
+}
+
+.cta p {
+    margin-bottom: 25px;
+    color: #dce3ed;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background: #041226;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h3 {
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 7px 0;
+    color: #c9d1dc;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 0 5%;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        background: #071b3a;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 15px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .hero {
+        min-height: 80vh;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 60px 6%;
+    }
+
+    .intro h2,
+    .services h2,
+    .why-us h2,
+    .cta h2 {
+        font-size: 30px;
+    }
+
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+}
+.gallery-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}

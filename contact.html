@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | The Best Finance Services</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <span>THE BEST</span>
+                <small>FINANCE SERVICES</small>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        </nav>
+    </header>
+
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+
+        <p class="section-label">CONTACT US</p>
+
+        <h1>Let's Talk About Your Finances</h1>
+
+        <p>
+            We're ready to help you make better financial decisions.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+
+        <div class="contact-info">
+
+            <p class="section-label">GET IN TOUCH</p>
+
+            <h2>We're Here to Help</h2>
+
+            <p>
+                Have a question about our financial advisory,
+                investment or accounting services? Contact us today.
+            </p>
+
+
+            <!-- PHONE -->
+            <div class="contact-card">
+
+                <div class="contact-icon">📞</div>
+
+                <div>
+                    <h3>Call Us</h3>
+
+                    <a href="tel:+260975029702">
+                        +260 975 029 702
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- WHATSAPP -->
+            <div class="contact-card">
+
+                <div class="contact-icon">💬</div>
+
+                <div>
+                    <h3>WhatsApp</h3>
+
+                    <a
+                        href="https://wa.me/260975029702"
+                        target="_blank">
+                        Chat with us
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- EMAIL -->
+            <div class="contact-card">
+
+                <div class="contact-icon">📧</div>
+
+                <div>
+                    <h3>Email</h3>
+
+                    <a href="mailto:kanyemebest1@gmail.com">
+                        kanyemebest1@gmail.com
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- LOCATION -->
+            <div class="contact-card">
+
+                <div class="contact-icon">📍</div>
+
+                <div>
+                    <h3>Location</h3>
+
+                    <p>Kitwe, Zambia</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form-container">
+
+            <h2>Send Us a Message</h2>
+
+            <form id="contactForm">
+
+                <label for="name">Your Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required>
+
+
+                <label for="email">Your Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required>
+
+
+                <label for="service">Service Required</label>
+
+                <select id="service" name="service" required>
+
+                    <option value="">
+                        Select a service
+                    </option>
+
+                    <option value="Financial Advisory">
+                        Financial Advisory
+                    </option>
+
+                    <option value="Investment Services">
+                        Investment Services
+                    </option>
+
+                    <option value="Accounting Services">
+                        Accounting Services
+                    </option>
+
+                </select>
+
+
+                <label for="message">Your Message</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Write your message..."
+                    required></textarea>
+
+
+                <button
+                    type="submit"
+                    class="btn primary-btn">
+                    Send Message
+                </button>
+
+            </form>
+
+            <p id="formMessage"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUICK CONTACT -->
+    <section class="cta">
+
+        <h2>Prefer a Quick Conversation?</h2>
+
+        <p>
+            Contact us directly through WhatsApp or email.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a
+                href="https://wa.me/260975029702"
+                target="_blank"
+                class="btn primary-btn">
+                WhatsApp Us
+            </a>
+
+            <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=kanyemebest1@gmail.com"
+                class="btn whatsapp-btn">
+                Email Us
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>The Best Finance Services</h3>
+
+        <p>Building Better Financial Futures.</p>
+
+        <p>📍 Kitwe, Zambia</p>
+
+        <p>📞 +260 975 029 702</p>
+
+        <p>📧 kanyemebest1@gmail.com</p>
+
+        <p>
+            © 2026 The Best Finance Services.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
